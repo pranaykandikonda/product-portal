@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
     background-color: #333;
     padding: 1rem 0;
@@ -54,3 +55,60 @@
     color: #333;
   }
   
+=======
+.navbar {
+  background-color: #333;
+  padding: 1rem 0;
+  color: white;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-logout {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: white;
+  color: #333;
+}
+>>>>>>> Initial commit
